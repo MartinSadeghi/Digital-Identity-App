@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3413A64260D0486003B4A79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3413A63260D0486003B4A79 /* AppDelegate.swift */; };
+		E3413A66260D0486003B4A79 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E3413A65260D0486003B4A79 /* art.scnassets */; };
+		E3413A68260D0486003B4A79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3413A67260D0486003B4A79 /* ViewController.swift */; };
+		E3413A6B260D0486003B4A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3413A69260D0486003B4A79 /* Main.storyboard */; };
+		E3413A6D260D0489003B4A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3413A6C260D0489003B4A79 /* Assets.xcassets */; };
+		E3413A70260D0489003B4A79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3413A6E260D0489003B4A79 /* LaunchScreen.storyboard */; };
+		E3413A7B260D0489003B4A79 /* Digital_Identity_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3413A7A260D0489003B4A79 /* Digital_Identity_AppTests.swift */; };
+		E3413A86260D048A003B4A79 /* Digital_Identity_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3413A85260D048A003B4A79 /* Digital_Identity_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3413A77260D0489003B4A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3413A58260D0486003B4A79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3413A5F260D0486003B4A79;
+			remoteInfo = "Digital Identity App";
+		};
+		E3413A82260D048A003B4A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3413A58260D0486003B4A79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3413A5F260D0486003B4A79;
+			remoteInfo = "Digital Identity App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3413A60260D0486003B4A79 /* Digital Identity App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Identity App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3413A63260D0486003B4A79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3413A65260D0486003B4A79 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		E3413A67260D0486003B4A79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3413A6A260D0486003B4A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3413A6C260D0489003B4A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3413A6F260D0489003B4A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3413A71260D0489003B4A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3413A76260D0489003B4A79 /* Digital Identity AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Digital Identity AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3413A7A260D0489003B4A79 /* Digital_Identity_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_Identity_AppTests.swift; sourceTree = "<group>"; };
+		E3413A7C260D0489003B4A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3413A81260D048A003B4A79 /* Digital Identity AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Digital Identity AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3413A85260D048A003B4A79 /* Digital_Identity_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_Identity_AppUITests.swift; sourceTree = "<group>"; };
+		E3413A87260D048A003B4A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3413A5D260D0486003B4A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3413A73260D0489003B4A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3413A7E260D048A003B4A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3413A57260D0486003B4A79 = {
+			isa = PBXGroup;
+			children = (
+				E3413A62260D0486003B4A79 /* Digital Identity App */,
+				E3413A79260D0489003B4A79 /* Digital Identity AppTests */,
+				E3413A84260D048A003B4A79 /* Digital Identity AppUITests */,
+				E3413A61260D0486003B4A79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3413A61260D0486003B4A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3413A60260D0486003B4A79 /* Digital Identity App.app */,
+				E3413A76260D0489003B4A79 /* Digital Identity AppTests.xctest */,
+				E3413A81260D048A003B4A79 /* Digital Identity AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3413A62260D0486003B4A79 /* Digital Identity App */ = {
+			isa = PBXGroup;
+			children = (
+				E3413A63260D0486003B4A79 /* AppDelegate.swift */,
+				E3413A65260D0486003B4A79 /* art.scnassets */,
+				E3413A67260D0486003B4A79 /* ViewController.swift */,
+				E3413A69260D0486003B4A79 /* Main.storyboard */,
+				E3413A6C260D0489003B4A79 /* Assets.xcassets */,
+				E3413A6E260D0489003B4A79 /* LaunchScreen.storyboard */,
+				E3413A71260D0489003B4A79 /* Info.plist */,
+			);
+			path = "Digital Identity App";
+			sourceTree = "<group>";
+		};
+		E3413A79260D0489003B4A79 /* Digital Identity AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3413A7A260D0489003B4A79 /* Digital_Identity_AppTests.swift */,
+				E3413A7C260D0489003B4A79 /* Info.plist */,
+			);
+			path = "Digital Identity AppTests";
+			sourceTree = "<group>";
+		};
+		E3413A84260D048A003B4A79 /* Digital Identity AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3413A85260D048A003B4A79 /* Digital_Identity_AppUITests.swift */,
+				E3413A87260D048A003B4A79 /* Info.plist */,
+			);
+			path = "Digital Identity AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3413A5F260D0486003B4A79 /* Digital Identity App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3413A8A260D048A003B4A79 /* Build configuration list for PBXNativeTarget "Digital Identity App" */;
+			buildPhases = (
+				E3413A5C260D0486003B4A79 /* Sources */,
+				E3413A5D260D0486003B4A79 /* Frameworks */,
+				E3413A5E260D0486003B4A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Digital Identity App";
+			productName = "Digital Identity App";
+			productReference = E3413A60260D0486003B4A79 /* Digital Identity App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3413A75260D0489003B4A79 /* Digital Identity AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3413A8D260D048A003B4A79 /* Build configuration list for PBXNativeTarget "Digital Identity AppTests" */;
+			buildPhases = (
+				E3413A72260D0489003B4A79 /* Sources */,
+				E3413A73260D0489003B4A79 /* Frameworks */,
+				E3413A74260D0489003B4A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3413A78260D0489003B4A79 /* PBXTargetDependency */,
+			);
+			name = "Digital Identity AppTests";
+			productName = "Digital Identity AppTests";
+			productReference = E3413A76260D0489003B4A79 /* Digital Identity AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3413A80260D048A003B4A79 /* Digital Identity AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3413A90260D048A003B4A79 /* Build configuration list for PBXNativeTarget "Digital Identity AppUITests" */;
+			buildPhases = (
+				E3413A7D260D048A003B4A79 /* Sources */,
+				E3413A7E260D048A003B4A79 /* Frameworks */,
+				E3413A7F260D048A003B4A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3413A83260D048A003B4A79 /* PBXTargetDependency */,
+			);
+			name = "Digital Identity AppUITests";
+			productName = "Digital Identity AppUITests";
+			productReference = E3413A81260D048A003B4A79 /* Digital Identity AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3413A58260D0486003B4A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E3413A5F260D0486003B4A79 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E3413A75260D0489003B4A79 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E3413A5F260D0486003B4A79;
+					};
+					E3413A80260D048A003B4A79 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E3413A5F260D0486003B4A79;
+					};
+				};
+			};
+			buildConfigurationList = E3413A5B260D0486003B4A79 /* Build configuration list for PBXProject "Digital Identity App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3413A57260D0486003B4A79;
+			productRefGroup = E3413A61260D0486003B4A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3413A5F260D0486003B4A79 /* Digital Identity App */,
+				E3413A75260D0489003B4A79 /* Digital Identity AppTests */,
+				E3413A80260D048A003B4A79 /* Digital Identity AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3413A5E260D0486003B4A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3413A66260D0486003B4A79 /* art.scnassets in Resources */,
+				E3413A70260D0489003B4A79 /* LaunchScreen.storyboard in Resources */,
+				E3413A6D260D0489003B4A79 /* Assets.xcassets in Resources */,
+				E3413A6B260D0486003B4A79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3413A74260D0489003B4A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3413A7F260D048A003B4A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3413A5C260D0486003B4A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3413A68260D0486003B4A79 /* ViewController.swift in Sources */,
+				E3413A64260D0486003B4A79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3413A72260D0489003B4A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3413A7B260D0489003B4A79 /* Digital_Identity_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3413A7D260D048A003B4A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3413A86260D048A003B4A79 /* Digital_Identity_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3413A78260D0489003B4A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3413A5F260D0486003B4A79 /* Digital Identity App */;
+			targetProxy = E3413A77260D0489003B4A79 /* PBXContainerItemProxy */;
+		};
+		E3413A83260D048A003B4A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3413A5F260D0486003B4A79 /* Digital Identity App */;
+			targetProxy = E3413A82260D048A003B4A79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3413A69260D0486003B4A79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3413A6A260D0486003B4A79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3413A6E260D0489003B4A79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3413A6F260D0489003B4A79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3413A88260D048A003B4A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3413A89260D048A003B4A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3413A8B260D048A003B4A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQQ325J47J;
+				INFOPLIST_FILE = "Digital Identity App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moeisadeghi.Digital-Identity-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3413A8C260D048A003B4A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQQ325J47J;
+				INFOPLIST_FILE = "Digital Identity App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moeisadeghi.Digital-Identity-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3413A8E260D048A003B4A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQQ325J47J;
+				INFOPLIST_FILE = "Digital Identity AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moeisadeghi.Digital-Identity-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digital Identity App.app/Digital Identity App";
+			};
+			name = Debug;
+		};
+		E3413A8F260D048A003B4A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQQ325J47J;
+				INFOPLIST_FILE = "Digital Identity AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moeisadeghi.Digital-Identity-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digital Identity App.app/Digital Identity App";
+			};
+			name = Release;
+		};
+		E3413A91260D048A003B4A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQQ325J47J;
+				INFOPLIST_FILE = "Digital Identity AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moeisadeghi.Digital-Identity-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Digital Identity App";
+			};
+			name = Debug;
+		};
+		E3413A92260D048A003B4A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQQ325J47J;
+				INFOPLIST_FILE = "Digital Identity AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moeisadeghi.Digital-Identity-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Digital Identity App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3413A5B260D0486003B4A79 /* Build configuration list for PBXProject "Digital Identity App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3413A88260D048A003B4A79 /* Debug */,
+				E3413A89260D048A003B4A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3413A8A260D048A003B4A79 /* Build configuration list for PBXNativeTarget "Digital Identity App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3413A8B260D048A003B4A79 /* Debug */,
+				E3413A8C260D048A003B4A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3413A8D260D048A003B4A79 /* Build configuration list for PBXNativeTarget "Digital Identity AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3413A8E260D048A003B4A79 /* Debug */,
+				E3413A8F260D048A003B4A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3413A90260D048A003B4A79 /* Build configuration list for PBXNativeTarget "Digital Identity AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3413A91260D048A003B4A79 /* Debug */,
+				E3413A92260D048A003B4A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3413A58260D0486003B4A79 /* Project object */;
+}
