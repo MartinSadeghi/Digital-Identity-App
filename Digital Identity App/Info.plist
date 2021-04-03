@@ -2,6 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>retrieve your photo from the library.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We need to access your photo to save your selfie.</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>NSCameraUsageDescription</key>
+	<string>we need your camera to verify your ID Card.</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Your speech will be detacted after tapping the start button </string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Speak to Identity</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -20,8 +34,6 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSCameraUsageDescription</key>
-	<string></string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

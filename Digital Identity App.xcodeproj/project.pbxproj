@@ -3,18 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5FCA5A7A1F8C4C1DCE4C29 /* Pods_Digital_Identity_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBD1FC868E136134E2CC259 /* Pods_Digital_Identity_App.framework */; };
 		E3413A64260D0486003B4A79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3413A63260D0486003B4A79 /* AppDelegate.swift */; };
 		E3413A66260D0486003B4A79 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E3413A65260D0486003B4A79 /* art.scnassets */; };
-		E3413A68260D0486003B4A79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3413A67260D0486003B4A79 /* ViewController.swift */; };
+		E3413A68260D0486003B4A79 /* ARCameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3413A67260D0486003B4A79 /* ARCameraVC.swift */; };
 		E3413A6B260D0486003B4A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3413A69260D0486003B4A79 /* Main.storyboard */; };
 		E3413A6D260D0489003B4A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3413A6C260D0489003B4A79 /* Assets.xcassets */; };
 		E3413A70260D0489003B4A79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3413A6E260D0489003B4A79 /* LaunchScreen.storyboard */; };
 		E3413A7B260D0489003B4A79 /* Digital_Identity_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3413A7A260D0489003B4A79 /* Digital_Identity_AppTests.swift */; };
 		E3413A86260D048A003B4A79 /* Digital_Identity_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3413A85260D048A003B4A79 /* Digital_Identity_AppUITests.swift */; };
+		E3634DDF260D08CA00440DBD /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3634DDD260D08CA00440DBD /* ChatVC.swift */; };
+		E3634DEA260D364300440DBD /* SpeechVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3634DE9260D364300440DBD /* SpeechVC.swift */; };
+		E3634DF0260D369B00440DBD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3634DEF260D369B00440DBD /* Question.swift */; };
+		E3634DFC260D3CFC00440DBD /* MasterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3634DFA260D3CFC00440DBD /* MasterCell.swift */; };
+		E3634DFD260D3CFC00440DBD /* MasterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3634DFB260D3CFC00440DBD /* MasterCell.xib */; };
+		E3A0493626139AEB0009E899 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A0493426139AEB0009E899 /* PhotoCell.swift */; };
+		E3A0493726139AEB0009E899 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A0493526139AEB0009E899 /* PhotoCell.xib */; };
+		E3BC973B260E579E008D600B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BC9739260E579E008D600B /* UserCell.swift */; };
+		E3BC973C260E579E008D600B /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3BC973A260E579E008D600B /* UserCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48A6E7CEEE4331A4DDFD43F1 /* Pods-Digital Identity App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digital Identity App.debug.xcconfig"; path = "Target Support Files/Pods-Digital Identity App/Pods-Digital Identity App.debug.xcconfig"; sourceTree = "<group>"; };
+		B87F318CA58C241B7069BC4E /* Pods-Digital Identity App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digital Identity App.release.xcconfig"; path = "Target Support Files/Pods-Digital Identity App/Pods-Digital Identity App.release.xcconfig"; sourceTree = "<group>"; };
+		DDBD1FC868E136134E2CC259 /* Pods_Digital_Identity_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Digital_Identity_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3413A60260D0486003B4A79 /* Digital Identity App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Identity App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3413A63260D0486003B4A79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3413A65260D0486003B4A79 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		E3413A67260D0486003B4A79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3413A67260D0486003B4A79 /* ARCameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCameraVC.swift; sourceTree = "<group>"; };
 		E3413A6A260D0486003B4A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3413A6C260D0489003B4A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3413A6F260D0489003B4A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,15 @@
 		E3413A81260D048A003B4A79 /* Digital Identity AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Digital Identity AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3413A85260D048A003B4A79 /* Digital_Identity_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_Identity_AppUITests.swift; sourceTree = "<group>"; };
 		E3413A87260D048A003B4A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3634DDD260D08CA00440DBD /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		E3634DE9260D364300440DBD /* SpeechVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechVC.swift; sourceTree = "<group>"; };
+		E3634DEF260D369B00440DBD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		E3634DFA260D3CFC00440DBD /* MasterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterCell.swift; sourceTree = "<group>"; };
+		E3634DFB260D3CFC00440DBD /* MasterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasterCell.xib; sourceTree = "<group>"; };
+		E3A0493426139AEB0009E899 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		E3A0493526139AEB0009E899 /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		E3BC9739260E579E008D600B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		E3BC973A260E579E008D600B /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5FCA5A7A1F8C4C1DCE4C29 /* Pods_Digital_Identity_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C9EB30D1FA1991A3F19B96B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDBD1FC868E136134E2CC259 /* Pods_Digital_Identity_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E25331F5BE17302C35F504A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48A6E7CEEE4331A4DDFD43F1 /* Pods-Digital Identity App.debug.xcconfig */,
+				B87F318CA58C241B7069BC4E /* Pods-Digital Identity App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E3413A57260D0486003B4A79 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				E3413A79260D0489003B4A79 /* Digital Identity AppTests */,
 				E3413A84260D048A003B4A79 /* Digital Identity AppUITests */,
 				E3413A61260D0486003B4A79 /* Products */,
+				5E25331F5BE17302C35F504A /* Pods */,
+				0C9EB30D1FA1991A3F19B96B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +143,8 @@
 			children = (
 				E3413A63260D0486003B4A79 /* AppDelegate.swift */,
 				E3413A65260D0486003B4A79 /* art.scnassets */,
-				E3413A67260D0486003B4A79 /* ViewController.swift */,
-				E3413A69260D0486003B4A79 /* Main.storyboard */,
+				E3634DB9260D06E000440DBD /* Controller */,
+				E3634DB5260D05D900440DBD /* View */,
 				E3413A6C260D0489003B4A79 /* Assets.xcassets */,
 				E3413A6E260D0489003B4A79 /* LaunchScreen.storyboard */,
 				E3413A71260D0489003B4A79 /* Info.plist */,
@@ -128,6 +170,39 @@
 			path = "Digital Identity AppUITests";
 			sourceTree = "<group>";
 		};
+		E3634DB5260D05D900440DBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3413A69260D0486003B4A79 /* Main.storyboard */,
+				E3634DFA260D3CFC00440DBD /* MasterCell.swift */,
+				E3634DFB260D3CFC00440DBD /* MasterCell.xib */,
+				E3BC9739260E579E008D600B /* UserCell.swift */,
+				E3BC973A260E579E008D600B /* UserCell.xib */,
+				E3A0493426139AEB0009E899 /* PhotoCell.swift */,
+				E3A0493526139AEB0009E899 /* PhotoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3634DB9260D06E000440DBD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3634DDD260D08CA00440DBD /* ChatVC.swift */,
+				E3634DE9260D364300440DBD /* SpeechVC.swift */,
+				E3413A67260D0486003B4A79 /* ARCameraVC.swift */,
+				E3634DEE260D368000440DBD /* Model */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3634DEE260D368000440DBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3634DEF260D369B00440DBD /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3413A8A260D048A003B4A79 /* Build configuration list for PBXNativeTarget "Digital Identity App" */;
 			buildPhases = (
+				9ECC218A4EBC0F4B2FA27930 /* [CP] Check Pods Manifest.lock */,
 				E3413A5C260D0486003B4A79 /* Sources */,
 				E3413A5D260D0486003B4A79 /* Frameworks */,
 				E3413A5E260D0486003B4A79 /* Resources */,
+				7B571280F9F8654AF96286EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +309,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3413A66260D0486003B4A79 /* art.scnassets in Resources */,
+				E3634DFD260D3CFC00440DBD /* MasterCell.xib in Resources */,
+				E3BC973C260E579E008D600B /* UserCell.xib in Resources */,
 				E3413A70260D0489003B4A79 /* LaunchScreen.storyboard in Resources */,
 				E3413A6D260D0489003B4A79 /* Assets.xcassets in Resources */,
 				E3413A6B260D0486003B4A79 /* Main.storyboard in Resources */,
+				E3A0493726139AEB0009E899 /* PhotoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +334,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B571280F9F8654AF96286EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Digital Identity App/Pods-Digital Identity App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Digital Identity App/Pods-Digital Identity App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Digital Identity App/Pods-Digital Identity App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ECC218A4EBC0F4B2FA27930 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Digital Identity App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3413A5C260D0486003B4A79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3413A68260D0486003B4A79 /* ViewController.swift in Sources */,
+				E3634DF0260D369B00440DBD /* Question.swift in Sources */,
+				E3A0493626139AEB0009E899 /* PhotoCell.swift in Sources */,
+				E3634DDF260D08CA00440DBD /* ChatVC.swift in Sources */,
+				E3413A68260D0486003B4A79 /* ARCameraVC.swift in Sources */,
+				E3634DEA260D364300440DBD /* SpeechVC.swift in Sources */,
 				E3413A64260D0486003B4A79 /* AppDelegate.swift in Sources */,
+				E3634DFC260D3CFC00440DBD /* MasterCell.swift in Sources */,
+				E3BC973B260E579E008D600B /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +561,7 @@
 		};
 		E3413A8B260D048A003B4A79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A6E7CEEE4331A4DDFD43F1 /* Pods-Digital Identity App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +575,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moeisadeghi.Digital-Identity-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E3413A8C260D048A003B4A79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87F318CA58C241B7069BC4E /* Pods-Digital Identity App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,7 +595,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moeisadeghi.Digital-Identity-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

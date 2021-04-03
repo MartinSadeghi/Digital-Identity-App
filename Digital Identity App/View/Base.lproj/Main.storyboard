@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tNa-L2-ieH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CameraVC-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ARCameraVC" customModule="Digital_Identity_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                            </arscnView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="GCm-uI-Zbt"/>
+                    <connections>
+                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428.985507246377" y="128.57142857142856"/>
+        </scene>
+        <!--ChatVC-->
+        <scene sceneID="25q-MZ-I8Z">
+            <objects>
+                <viewController id="ecx-UH-1mc" customClass="ChatVC" customModule="Digital_Identity_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IWS-mr-NyH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oca-CV-Eaf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="670"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rlL-pX-p48">
+                                <rect key="frame" x="0.0" y="670" width="414" height="138"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eIm-0K-6dG" userLabel="CamView">
+                                        <rect key="frame" x="0.0" y="0.0" width="103.5" height="138"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFQ-22-l5z" userLabel="camBtn">
+                                                <rect key="frame" x="9.5" y="26.5" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="85" id="DUO-ev-hdu"/>
+                                                    <constraint firstAttribute="width" constant="85" id="wrX-my-9Fh"/>
+                                                </constraints>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" image="camera" catalog="system">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BV1-FR-VrT" kind="show" id="E3f-So-vXq"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="GFQ-22-l5z" firstAttribute="centerY" secondItem="eIm-0K-6dG" secondAttribute="centerY" id="tUI-cB-O0m"/>
+                                            <constraint firstItem="GFQ-22-l5z" firstAttribute="centerX" secondItem="eIm-0K-6dG" secondAttribute="centerX" id="wYH-kh-EXA"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZ2-G5-ItP">
+                                        <rect key="frame" x="103.5" y="0.0" width="103.5" height="138"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GF5-s6-ns1" userLabel="selfieBtn">
+                                                <rect key="frame" x="17" y="43" width="72" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" image="camera.fill" catalog="system">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="selfieBtn:" destination="ecx-UH-1mc" eventType="touchUpInside" id="IvM-rl-3nN"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Cv-sK-wSW" userLabel="StopView">
+                                        <rect key="frame" x="207" y="0.0" width="103.5" height="138"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJH-eH-g2T" userLabel="stopBtn">
+                                                <rect key="frame" x="9.5" y="26.5" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="85" id="FIl-0d-hC0"/>
+                                                    <constraint firstAttribute="width" constant="85" id="yvA-5j-og0"/>
+                                                </constraints>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" image="stop" catalog="system">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="stopBtn:" destination="ecx-UH-1mc" eventType="touchUpInside" id="2Dz-m8-6Ql"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="TJH-eH-g2T" firstAttribute="centerX" secondItem="6Cv-sK-wSW" secondAttribute="centerX" id="BkT-AN-fN4"/>
+                                            <constraint firstItem="TJH-eH-g2T" firstAttribute="centerY" secondItem="6Cv-sK-wSW" secondAttribute="centerY" id="Qn8-qF-Ndl"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bvG-sh-327" userLabel="MicView">
+                                        <rect key="frame" x="310.5" y="0.0" width="103.5" height="138"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLq-PR-oHg" userLabel="micBtn">
+                                                <rect key="frame" x="9.5" y="26.5" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="85" id="0E9-zO-FJN"/>
+                                                    <constraint firstAttribute="height" constant="85" id="pO3-jn-0px"/>
+                                                </constraints>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" image="mic" catalog="system">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="micBtn:" destination="ecx-UH-1mc" eventType="touchUpInside" id="LnP-oE-xbP"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="NLq-PR-oHg" firstAttribute="centerX" secondItem="bvG-sh-327" secondAttribute="centerX" id="T20-te-6wy"/>
+                                            <constraint firstItem="NLq-PR-oHg" firstAttribute="centerY" secondItem="bvG-sh-327" secondAttribute="centerY" id="nZM-B1-7Vc"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ixt-RF-GnS"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="rlL-pX-p48" secondAttribute="bottom" id="FEi-8D-GV2"/>
+                            <constraint firstItem="Ixt-RF-GnS" firstAttribute="bottom" secondItem="oca-CV-Eaf" secondAttribute="bottom" constant="104" id="OjL-ad-sMq"/>
+                            <constraint firstItem="oca-CV-Eaf" firstAttribute="top" secondItem="IWS-mr-NyH" secondAttribute="top" id="RNg-3e-knP"/>
+                            <constraint firstItem="oca-CV-Eaf" firstAttribute="leading" secondItem="Ixt-RF-GnS" secondAttribute="leading" id="Xmx-OB-K1F"/>
+                            <constraint firstItem="oca-CV-Eaf" firstAttribute="trailing" secondItem="Ixt-RF-GnS" secondAttribute="trailing" id="grG-CR-nV7"/>
+                            <constraint firstItem="rlL-pX-p48" firstAttribute="top" secondItem="oca-CV-Eaf" secondAttribute="bottom" id="hOO-fl-Wic"/>
+                            <constraint firstItem="rlL-pX-p48" firstAttribute="leading" secondItem="Ixt-RF-GnS" secondAttribute="leading" id="jGM-HC-CE0"/>
+                            <constraint firstItem="Ixt-RF-GnS" firstAttribute="trailing" secondItem="rlL-pX-p48" secondAttribute="trailing" id="oy1-iU-Djo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xba-kU-ggg"/>
+                    <connections>
+                        <outlet property="camBtn" destination="GFQ-22-l5z" id="U4W-cm-pcp"/>
+                        <outlet property="micBtn" destination="NLq-PR-oHg" id="4Hu-fC-yxi"/>
+                        <outlet property="selfieBtn" destination="GF5-s6-ns1" id="YSq-d8-2TI"/>
+                        <outlet property="stopBtn" destination="TJH-eH-g2T" id="TAW-uH-rsB"/>
+                        <outlet property="tableView" destination="oca-CV-Eaf" id="WbE-EX-mak"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9e7-QT-cXi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="614.49275362318849" y="128.57142857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZnN-hp-yDR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tNa-L2-ieH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="aJr-Ga-TuO">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ecx-UH-1mc" kind="relationship" relationship="rootViewController" id="l58-ep-EFM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9r2-4e-ndf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-246.37681159420291" y="128.57142857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera" catalog="system" width="128" height="94"/>
+        <image name="camera.fill" catalog="system" width="128" height="94"/>
+        <image name="mic" catalog="system" width="108" height="128"/>
+        <image name="stop" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
